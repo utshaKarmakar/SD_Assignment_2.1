@@ -70,10 +70,14 @@ class _MyHomePageState extends State<MyHomePage> {
                                     crossAxisAlignment: CrossAxisAlignment.stretch,
                                     mainAxisAlignment: MainAxisAlignment.center,
                                     children: [
-                                      Text('              new    ',style: TextStyle(fontSize: 21,fontWeight: FontWeight.w400),),
+                                       Text('              new    ',style: TextStyle(fontSize: 21,fontWeight: FontWeight.w400),),
+                                      SizedBox(height: 8),
                                       Text('iPhone 15 Pro Max',style: TextStyle(fontSize: 21.5,fontWeight: FontWeight.w900),),
+                                      SizedBox(height: 3),
                                       Text('  The Ultimate phone',style: TextStyle(fontSize: 19,fontWeight: FontWeight.w500),),
+                                      SizedBox(height: 7),
                                       Text('             From \$999',style: TextStyle(fontSize: 18,fontWeight: FontWeight.w400),),
+
 
 
                                       Padding(
