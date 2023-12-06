@@ -43,7 +43,7 @@ class _MyHomePageState extends State<MyHomePage> {
       appBar: AppBar(
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
 
-        title: Text("Apple Store",style: TextStyle(fontWeight: FontWeight.w700),),
+        title: Text("Apple Mobile Store",style: TextStyle(fontWeight: FontWeight.w700),),
       ),
       body:
       Padding(
